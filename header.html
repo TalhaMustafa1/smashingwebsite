@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleheader.css">
+    <title>Smashing magazine</title>
+</head>
+<body>
+<div>
+    <!-- Header part start -->
+    <header>
+        <!-- Navbar start-->
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="#">
+        <img src="./image/logo--full.png" alt="">
+    </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Books</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Workshops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conference</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Membership</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More
+                  <img src="image/pic1.png" alt="" id="dropdown-pic">
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown-menu-show">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+          </ul>
+          <form class="" role="search" id="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" name="search" placeholder="Search..">
+          </form>
+        </div>
+      </nav>
+      <!-- Navbar end -->
+
+      <!--Buttons group start-->
+        <div class="btn-grp">
+            <button class="btn">Accessibility</button>
+            <button class="btn">UX</button>
+            <button class="btn">CSS</button>
+            <button class="btn">JavaScript</button>
+            <button class="btn">Performance</button>
+            <button class="btn">Design </button>
+            <button class="btn">Figma</button>
+            <button class="btn">Wallpapers</button>
+            <button class="btn">React</button>
+            <button class="btn">Vue</button>
+            <button class="btn">Round-ups</button>
+            <button class="btn">Web designs</button>
+            <button class="btn">Guides</button>
+        </div>
+
+        <!-- Buttons group end -->
+    </header>
+    <!-- Header part end -->
+         <div class="container">
+          <div class="row">
+            <div style="color:#bdddff; font: size 13px;" > <span style="color: #f94962; font-size: 18px; font-family: Mija,-apple-system,BlinkMacSystemFont,Roboto,roboto slab,droid serif,segoe ui,system-ui,Arial,sans-serif;">Bielmann s </span> / dec 1, 2022 / 
+              2 comments</div>
+              <br>
+              <br>
+              <h1 style="font-size: 55px; color: linear-gradient(-90deg,#adfbda 0,#35c3ff 30%,#fda399 50%,#76d880 70%,#ebf38b 90%,#adfbda 100%);;">FabUnit: A Smart Way To Control And Synchronize Typo And Space</h1>
+              <br><br>
+          </div>
+         </div>
+      <!--Body part start -->
+         <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+            <div class="caro" style="height: 90px; border-radius: 12px;">
+               <span><p2> <i class="fas fa-calendar"></i> 12 min read</p2>       <p2> <i class="fas fa-notes"></i><a href="">CSS, Tools, Techniques, Responsive Design</a>  </p2></span>
+               <div><i class="fas fa-linkedin"></i> on Twitter, LinkedIn</div>
+            </div>
+              <div class="summ"
+              ><span><h6 style="color: #d33a2c; font-weight: 700; font-size: 1rem; font-style: normal;">QUICK SUMMARY</h6> <span style="color: white; font-size:22px; font-style: italic;">Today, we’ll take a look at the Sass function that does all the work for you — with no media queries, no breakpoints, and no design jumps. In this article, Fabienne Bielmann explains what FabUnit stands for and why she decided to create her very own responsive magic formula.</span></div></span>
+                 <br>
+        <br><br>
+        <p style="color: white; font-size:22px;">What if we were able to implement the sizes of designer’s contribution without hassle? What if we could set custom anchor points to generate a perfectly responsive value, giving us more options as the fluid size approach? What if we had a magic formula that controlled and synchronized the whole project?</p>
+        <br>
+        <p style="color: white; font-size:22px;"> It is often the case that I receive two templates from the designer: One for mobile and one for desktop. Lately, I have been asking myself how I could automate the process and optimize the result. How do I implement the specified sizes most effectively? How do I ensure a comfortable tablet view? How can I optimize the output for large screens? How can I react to extreme aspect ratios?/</p>
+        <br>
+        <img src="./image/16-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%" height="400px">
+        <br>
+        <br>
+        <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Desktop and mobile template from the designer <a href="">(Large preview)</a></span> </div>
+        <br>
+        
+        <p style="font-family:  Elena,-apple-system,BlinkMacSystemFont,Roboto,roboto slab,droid serif,segoe ui,system-ui,Arial,sans-serif;; line: height 1.7em; ; color: white;    font-size: calc(.35842vw + .95296em);">I would like to be able to read the two values of the different sizes (font, spaces, etc.) in pixel and enter them as arguments into a function that does all the work for me. I want to create my own responsive magic formula, my FabUnit.</p>      
+        <br><br>
+        <p style="font-family:  Elena,-apple-system,BlinkMacSystemFont,Roboto,roboto slab,droid serif,segoe ui,system-ui,Arial,sans-serif;; line: height 1.7em; ; color: white;    font-size: calc(.35842vw + .95296em);">When I started working on this topic in the spring and launched the FabUnit, I came across this interesting article by Adrian. In the meantime, Ruslan and Brecht have also researched in this direction and presented interesting thoughts.</p>
+        <br><br>
+        <h3 style="color: white;">How Can I Implement The Design Templates Most <br> Effectively? #</h3>
+        <br>
+        <p style="color: white; font-size: 20px">I am tired of writing media queries for every value, and I want to avoid design jumps. The maintenance and the result are not satisfying. So what is the best way to implement the designer’s contribution?</p>
+        <br><br>
+        <img src="./image/11-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%">
+        <br><br>
+
+        <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Desktop and mobile template from the designer <a href="">(Large preview)</a></span> </div>
+        <br><br>
+        <h7 style="color: white; font-size:20px ;">What about fluid sizes? There are handy calculators like Utopia or Min-Max-Calculator.</h7>
+        <br><br>
+        <img src="./image/11-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%">
+        <br><br>
+        <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Fluid size with minimum and maximum <a href="">(Large preview)</a></span> </div>
+        
+        <br><p>But for my projects, I usually need more setting options. The tablet view often turns out too small, and I can neither react to larger viewports nor to the aspect ratio.</p>
+        <br><br>
+        <img src="./image/7-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%">
+        <br><br>
+        <div class="text-left" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Disadvantages of the fluid-size approach with fixed minimum and maximum: font size and spacings are too small for tablet views and no responsiveness for larger screens or extreme aspect ratios. <a href="">(Large preview)</a></span> </div>
+        <br><br>
+         <p style="line-height:1.7rem;">And it would be nice to have a proportional synchronization across the whole project. I can define global variables with the calculated values, but I also want to be able to generate an interpolated value locally in the components without any effort. I would like to draw my own responsive line. So I need a tool that spits out the perfect value based on several anchor points (screen definitions) and automates the processes for most of my projects. My tool must be fast and easy to use, and the code must be readable and maintainable.</p>
+        <br><br>
+        <img src="./image/11-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%">
+         <br><br>
+         <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Custom responsive line based on anchor points. <a href="">(Large preview)</a></span> </div>
+         <br><br><br><br>
+         <h3 style="color: white;">What Constants From The Design Specifications Should Our Calculations Be Based On? #</h3>
+         <br><br>
+         <p2 style="color: white; font-size: 22px;">Let’s take a closer look at our previous example:</p2>
+         <br><br>
+         <img src="./image/16-fabunit-smart-way-control-synchronise-typo-space.png" alt="" width="100%">
+         <br><br>
+         <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i> Input from a designer with size and screen specifications.<a href="">(Large preview)</a></span> </div>
+         <br><br>
+         <p>The body font size should be 16px on mobile and 22px on desktop (we will deal with the complete style guide later on). The mobile sizes should start at 375px and continuously adjust to 1024px. Up to 1440px, the sizes are to remain statically at the optimum. After that, the values should scale linearly up to 2000px, after which the max-wrapper takes effect.</p>
+          <br><br>
+          <img src="./image/22.png" alt="" width="100%">
+          <br><br>
+          <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class=""><i class="fa fa-camera" style="font-size:24px"></i>  Screen behavior for the design on mobile (min), desktop (opt) and larger screens (with wrapper).<a href="">(Large preview)</a></span> </div>
+          <br><br>
+          <img src="./image/33.png" alt="" width="100%">
+          <br><br>
+          <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>  Screen behavior of the design templates as a responsive line based on anchor points.<a href="">(Large preview)</a></span> </div>
+          <br><br>
+          <p>This gives us the following constants that apply to the whole project:</p>
+          <br><br>
+          <div class="caro"><table class="table table-borderless">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+          <br><br>
+        </div>
+        <br><br>
+        <p>The body font size should be at least 16px, ideally 22px. The maximum font size at 2000px should be calculated automatically:</p>
+        <br><br>
+        <div class="caro"><table class="table table-borderless">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+        <br><br>
+      </div>
+      <br><br>
+      <p>So, at the end of the day, my function should be able to take two arguments — in this case, 16 and 22.</p>
+      <br><br>
+      <div class="caro"><table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br>
+    </div>
+    <br><br>
+    <p>The body font size should be at least 16px, ideally 22px. The maximum font size at 2000px should be calculated automatically:</p>
+    <br><br>
+    <div class="caro"><table class="table table-borderless">
+      <thead>
+        <tr>
+          <th scope="col">fab-unit(16, 22);</th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+  <br><br>
+  <h3>The Calculation #</h3>
+  <br><br>
+  <p>If you are not interested in the mathematical derivation of the formula, feel free to jump directly to the section <a href="">How To Use The FabUnit?”.</a> “</p>
+  <br><br>
+  <p>So, let’s get started!</p>   
+  <br><br>
+  <div class="caro" style="height: 300px;">
+    <p>
+      <img  src="./image/cat-scubadiving-panel (1).png"   alt="" width="75px" height="200px" class="hp">
+      Meet Smashing Online Workshops on front-end & UX, with practical takeaways, live sessions, video recordings and a friendly Q&A. On design systems, UX, web performance and CSS/JS. With Brad Frost, Stephanie Troeth and so many others.</p>
+        <br>
+        <button type="" class="btn btn-success " style="height:80px; width: 400px; font-size: 22px;">Jump to the workshops</button>
+    </div>
+<br><br>
+    <h3>DEFINE MAIN CLAMPS #</h3>
+    <br>
+    <p>First, we need to figure out which main clamps we want to set.</p>
+    <br><br>
+    <div class="caro">
+      clamp1: clamp(Yf, slope1, Ya) <br>
+    clamp2: clamp(Yb, slope2, Yu)
+    </div>
+    <br><br>
+    <img src="./image/00.png" alt="" width="100%" height="200px">
+    <br>
+    <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>  Definition of the main clamps based on the specified anchor points.<a href="">(Large preview)</a></span> </div>
+           <br><br>
+           <h3>COMBINE AND NEST THE CLAMPS #
+          </h3>
+          <br><br>
+          <p>Now we have to combine the two clamps. This might get a little tricky. We have to consider that the two lines, slope1 and slope2, can overwrite each other, depending on how steep they are. Since we know that slope2 should be 45 degrees or 100% (m = 1), we can query whether slope1 is above 1. This way, we can set a different clamp depending on how the lines intersect.</p>
+           <br>
+           <br>
+          <img src="./image/00.png" alt="" width="100%">
+          <br><br>
+          <div class="text-center" style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>  Depending on the difference between the two sizes, the slope lines can intersect — the two clamps can come into conflict.<a href="">(Large preview)</a></span> </div>
+        <br><br>
+        <p>If slope1 is steeper than slope2, we combine the clamps like this:</p>
+        <br>
+        <br>
+        <div class="caro" style="height:60px;">
+          <br>
+        <p>clamp(Yf, slope1, clamp(Yb, slope2, Yu))</p></div>
+        <br><br>
+        <p>If slope1 is flatter than slope2, we do this calculation:</p>
+        <br><br>
+        <div class="caro text-left" style="height:60px;;">
+          <br>
+          <p>clamp(clamp(Yf, slope1, Ya), slope2, Yu)</p></div>
+          <br><br>
+          <p>Combined:</p>
+          <div class="caro text-left">
+            <br>
+            <p>steep-slope <br>
+              ? clamp(Yf, slope1, clamp(Yb, slope2, Yu))
+              <br>
+              : clamp(clamp(Yf, slope1, Ya), slope2, Yu)</p></div>
+              <br><br>
+              <h3>SET THE MAXIMUM WRAPPER OPTIONALLY #</h3>
+              <br>
+              <p>What if we don’t have a maximum wrapper that freezes the design above a certain width?</p>
+              <br>
+              <img src="./image/00.png" alt="" width="100%">
+              <br>
+              <div style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>Adjustment of the operations if no maximum value is to be set. .<a href="">(Large preview)</a></span> </div>
+             <br><br>
+             <p>First, we need to figure out which main clamps we want to set.</p>
+             <br>
+             <div class="caro text-left" style="height: auto;">
+              <br>
+              <p>clamp1: clamp(Yf, slope1, Ya) <br>
+                max: max(Yb, slope2)</p></div>
+                <p>If slope1 is steeper than slope2:</p>
+                <br>
+                <div class="caro text-left" style="height: auto;">
+                  <br>
+                  <p>clamp(Yf, slope1, max(Yb, slope2))</p></div>
+                  <br>
+                  <p>If slope1 is flatter than slope2:</p>
+                  <br>
+                  <div class="caro text-left" style="height: auto;">
+                    <br>
+                    <p>max(clamp(Yf, slope1, Ya), slope2)</p></div>
+                    <br>
+                    <p>The calculation without wrapper — elastic upwards:</p>
+                    <br>
+                    <div class="caro text-left" style="height: auto;">
+                      <br>
+                      <p>steep-slope <br>
+                        ? clamp(Yf, slope1, max(Yb, slope2))
+                        <br>
+                        : max(clamp(Yf, slope1, Ya), slope2)</p></div>
+                        <br>
+                        <p>Combined, with optional max wrapper (if screen-max Xu is set):</p>
+                        <br>
+                        <div class="caro text-left" style="height: auto;">
+                          <br>
+                          <p>Xu <br>
+                            ? steep-slope <br>
+                              ? clamp(Yf, slope1, clamp(Yb, slope2, Yu)) <br>
+                              : max(clamp(Yf, slope1, Ya), Yu) <br>
+                            : steep-slope <br>
+                              ? clamp(Yf, slope1, max(Yb, slope2)) <br>
+                              : max(clamp(Yf, slope1, Ya), slope2)</p></div>
+                              <br>
+                              <p>Thus we have built the basic structure of the formula. Now we dive a little deeper.</p>
+                              <br>
+                              <h3>CALCULATE THE MISSING VALUES #</h3>
+                              
+                                <br>
+                                <p>Let’s see which values we get in as an argument and which we have to calculate now:</p>
+                                <div class="caro text-left" style="height: auto; width: auto;">
+                                  <br>
+                                  <p>steep-slope <br>
+                                    ? clamp(Yf, slope1, clamp(Yb, slope2, Yu)) <br>
+                                    : max(clamp(Yf, slope1, Ya), Yu) <br>
+                                  
+                                  steep-slope <br>
+                                  Ya = Yb = 22px <br>
+                                  Yf = 16px <br>
+                                  slope1 = Mfa <br>
+                                  slope2 = Mbu <br>
+                                  Yu</p></div>
+                                  <br>
+                                  <br>
+                                  <img src="./image/00.png" alt="" width="100%">
+                                  <br>
+                                  <br>
+                                  <div style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>To complete the responsive line, two slopes and one anchor point must be calculated automatically .<a href="">(Large preview)</a></span> </div>
+                      <br>
+                      <p>.steep-slope <br>
+                        Check whether the slope Yf → Ya is above the slope Yb → Yu (m = 1) :</p>  
+                        <br>
+                        <div class="caro" style="height:auto; width:auto;">((Ya - Yf) / (Xa - Xf)) * 100 > 1</div>
+                        <br>
+                        <p>.Mfa <br>
+                          Linear interpolation, including the calculation of the slope Yf → Ya:</p>  
+                          <br>
+                          <div class="caro "style="height:auto; width:auto;" >
+                            <p> Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf)
+                            </p>
+                          </div> 
+                          <p>.Yu <br>
+                            Calculating the position of Yu:</p>  
+                            <br>
+                            <div class="caro "style="height:auto; width:auto;" >
+                              <p> (Xu / Xb) * Yb
+                              </p>
+                            </div> 
+                            <br>
+                            <h3>PUT ALL TOGETHER #</h3>
+                            <br>
+                            <div class="caro "style="height:auto; width:auto;" >
+                              <p> Xu
+                                ? ((Ya - Yf) / (Xa - Xf)) * 100 > 1
+                                  ? clamp(Yf, Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf), clamp(Yb, 100vw / Xb * Yb, (Xu / Xb) * Yb))
+                                  : max(clamp(Yf, Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf), Ya), (Xu / Xb) * Yb)
+                                : ((Ya - Yf) / (Xa - Xf)) * 100 > 1
+                                  ? clamp(Yf, Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf), max(Yb, 100vw / Xb * Yb))
+                                  : max(clamp(Yf, Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf), Ya), 100vw / Xb * Yb)
+                              </p>
+                            </div>
+                            <br>
+                            <p>We’d better store some calculations in variables:
+                            </p> 
+                            <br><br>
+                            <div class="caro "style="height:auto; width:auto;" >
+                              <p> steep-slope = ((Ya - Yf) / (Xa - Xf)) * 100 > 1
+                                slope1 = Yf + (Ya - Yf) * (100vw - Xf) / (Xa - Xf)
+                                slope2 = 100vw / Xb * Yb
+                                Yu = (Xu / Xb) * Yb
+                                
+                                Xu
+                                  ? steep-slope
+                                    ? clamp(Yf, slope1, clamp(Yb, slope2, Yu))
+                                    : max(clamp(Yf, slope1, Ya), Yu)
+                                  : steep-slope
+                                    ? clamp(Yf, slope1, max(Yb, slope2))
+                                    : max(clamp(Yf, slope1, Ya), slope2)
+                              </p>
+                            </div>
+                            <br>
+                            <h3>Include Aspect Ratio #</h3>
+                            <br>
+                            <p>Because we now see how the cat jumps, we treat ourselves to another cookie. In the case of an extremely wide format, e.g. mobile device landscape, we want to scale down the sizes again. It’s more pleasant and readable this way.
+
+                            </p>
+                            <br>
+                            <img src="./image/99.png" alt="" width="100%">
+                            <br><br>
+                            <div  class="text-center"
+                            style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>Extreme aspect ratios can have a negative effect on the rendered design..<a href="">(Large preview)</a></span> </div>
+                            <br>
+                            <br>
+                            <p>So what if we could include the aspect ratio in our calculations? In this example, we want to shrink the sizes when the screen is wider than the aspect ratio of 16:9.</p>    
+                          <div class="caro" style="height: auto;">
+                            aspect-ratio = 16 / 9
+screen-factor = min(100vw, 100vh * aspect-ratio)
+                          </div>
+                          <br>
+                          <p>In both slope interpolations, we simply replace 100vw with the new screen factor.</p>
+                          <br>
+                          <div class="caro" style="height: auto;">
+                          <p>slope1 = Yf + (Ya - Yf) * (screen-factor - Xf) / (Xa - Xf)
+                            slope2 = screen-factor / Xb * Yb</p></div>
+                            <br>
+                            <p>So, finally, that’s it. Let’s look at the whole magic formula now.</p>
+                            <br>
+                            <a href="https://bit.ly/progress_nov">image</a>
+                            <br>
+                            <br>
+                            <h3>Formula #</h3>
+                            <br>
+                            <div class="caro" style="height: auto;">
+                              <p>screen-factor = min(100vw, 100vh * aspect-ratio)
+                                steep-slope = ((Ya - Yf) / (Xa - Xf)) * 100 > 1
+                                slope1 = Yf + (Ya - Yf) * (screen-factor - Xf) / (Xa - Xf)
+                                slope2 = screen-factor / Xb * Yb
+                                Yu = (Xu / Xb) * Yb
+                                
+                                Xu
+                                  ? steep-slope
+                                    ? clamp(Yf, slope1, clamp(Yb, slope2, Yu))
+                                    : max(clamp(Yf, slope1, Ya), Yu)
+                                  : steep-slope
+                                    ? clamp(Yf, slope1, max(Yb, slope2))
+                                    : max(clamp(Yf, slope1, Ya), slope2)</p>
+                            </div>
+                            <br>
+                            <img src="./image/01.png" alt="" width="100%">
+                            <br>
+                            <div  class="text-center"
+                            style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>A handy FabUnit Visualizer that accepts user-defined values, displays the automatically calculated maximum size and draws the corresponding responsive line<a href="">(Large preview)</a></span> </div>
+                            <br>
+                            <br>
+                            <h3>Function #</h3>
+                            <br>
+                            <p>Now we can integrate the formula into our setup. In this article, we’ll look at how to implement it in Sass. The two helper functions ensure that we output the rem values correctly (I will not go into it in detail). Then we set the anchor points and the aspect ratio as constants (respectively, Sass variables). Finally, we replace the coordinate points of our formula with variable names, and the FabUnit is ready for use.
+
+                            </p>
+                            <br>
+                            <div class="caro" style="height: auto;">
+                            <p>
+                              @use "sass:math";
+
+
+/* Helper functions */
+
+$rem-base: 10px;
+
+@function strip-units($number) {
+  @if (math.is-unitless($number)) {
+      @return $number;
+    } @else {
+      @return math.div($number, $number * 0 + 1);
+  }
+}
+
+@function rem($size){
+  @if (math.compatible($size, 1rem) and not math.is-unitless($size)) {
+    @return $size;
+  } @else {
+    @return math.div(strip-units($size), strip-units($rem-base)) * 1rem;
+  }
+}
+
+
+/* Default values fab-unit 🪄 */
+
+$screen-min: 375;
+$screen-opt-start: 1024;
+$screen-opt-end: 1440;
+$screen-max: 2000;  // $screen-opt-end | int > $screen-opt-end | false
+$aspect-ratio: math.div(16, 9);  // smaller values for larger aspect ratios
+
+
+/* Magic function fab-unit 🪄 */
+
+@function fab-unit(
+    $size-min, 
+    $size-opt, 
+    $screen-min: $screen-min, 
+    $screen-opt-start: $screen-opt-start, 
+    $screen-opt-end: $screen-opt-end, 
+    $screen-max: $screen-max,
+    $aspect-ratio: $aspect-ratio
+  ) {
+  $screen-factor: min(100vw, 100vh * $aspect-ratio);
+  $steep-slope: math.div(($size-opt - $size-min), ($screen-opt-start - $screen-min)) * 100 > 1;
+  $slope1: calc(rem($size-min) + ($size-opt - $size-min) * ($screen-factor - rem($screen-min)) / ($screen-opt-start - $screen-min));
+  $slope2: calc($screen-factor / $screen-opt-end * $size-opt);
+  @if $screen-max {
+    $size-max: math.div(rem($screen-max), $screen-opt-end) * $size-opt;
+    @if $steep-slope {
+      @return clamp(rem($size-min), $slope1, clamp(rem($size-opt), $slope2, $size-max));
+    } @else {
+      @return clamp(clamp(rem($size-min), $slope1, rem($size-opt)), $slope2, $size-max);
+    }
+  } @else {
+    @if $steep-slope {
+      @return clamp(rem($size-min), $slope1, max(rem($size-opt), $slope2));
+    } @else {
+      @return max(clamp(rem($size-min), $slope1, rem($size-opt)), $slope2);
+    }
+  }
+}
+                            </p></div>
+                            <br>
+                            <div class="border">
+                            </div>
+                            <br><h3>
+                              How To Use The FabUnit? #
+                            </h3>
+                            <br>
+                            <p>The work is done, now it’s simple. The style guide from our example can be implemented in no time:</p>
+                            
+                        <br>
+                        <img src="./image/44.png" alt="" style="width: 100%;">
+                        <br>
+                        
+                 <br>
+                 <p>We read the related values from the style guide and pass them to the FabUnit as arguments: fab-unit(16, 22).</p>
+                 <br>
+                 <p style="font-style: italic;"> style.scss</p>
+                 <br>
+                 <div class="caro" style="height: auto;"><p>
+                  import "fab-unit";
+
+
+                  /* overwrite default values 🪄 */
+                  $screen-max: 1800;
+                  
+                  
+                  /* Style guide variables fab-unit 🪄 */
+                  
+                  $fab-font-size-body: fab-unit(16, 22);
+                  $fab-font-size-body-small: fab-unit(14, 16);
+                  
+                  $fab-font-size-h1: fab-unit(60, 160);
+                  $fab-font-size-h2: fab-unit(42, 110);
+                  $fab-font-size-h3: fab-unit(28, 60);
+                  
+                  $fab-space-s: fab-unit(20, 30);
+                  $fab-space-m: fab-unit(40, 80);
+                  $fab-space-l: fab-unit(60, 120);
+                  $fab-space-xl: fab-unit(80, 180);
+                  
+                  
+                  /* fab-unit in action 🪄 */
+                  
+                  html {
+                    font-size: 100% * math.div(strip-units($rem-base), 16);
+                  }
+                  
+                  body {
+                    font-size: $fab-font-size-body;
+                  }
+                  
+                  .wrapper {
+                    max-width: rem($screen-max);
+                    margin-inline: auto;
+                    padding: $fab-space-m;
+                  }
+                  
+                  h1 {
+                    font-size: $fab-font-size-h1;
+                    border-block-end: fab-unit(2, 10) solid plum;
+                  }
+                  
+                  …
+                  
+                  p {
+                    margin-block: $fab-space-s;
+                  }
+                  
+                  …
+                 </p>
+                </div>
+
+                  <div class="caro" style="height: auto;">
+                    <p>/* other use cases for calling fab-unit 🪄 */
+
+                      .grid {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(fab-unit(200, 500), 1fr));
+                        gap: $fab-space-m;
+                      }
+                      
+                      .thing {
+                        flex: 0 0 fab-unit(20, 30);
+                        height: fab-unit(20, 36, 660, 800, 1600, 1800);  /* min, opt, … custom anchor points */</p>
+}
+                  </div>
+                  <br>
+                  <p>We are now able to draw the responsive line by calling fab-unit() and specifying just two sizes, the minimum and the optimum. We can control the font sizes, paddings, margins and gaps, heights and widths, and even — if we want to — define grid columns and flex layouts with it. We are also able to move the predefined anchor points locally.</p>
+                   <br>
+                   <img src="./image/7-fabunit-smart-way-control-synchronise-typo-space.png" width="100%" alt="">
+                   <br>
+                   <div  class="text-center"
+                            style="font-style: italic; font-weight: 0.97em;"> <span style="color: white;" class="text-center"><i class="fa fa-camera" style="font-size:24px"></i>Optimal adaptation to different viewports sizes and aspect ratios with the FabUnit<a href="">(Large preview)</a></span> </div>
+                <br>
+                <p>Let’s have a look at the compiled output:</p>
+                <br>
+                <div class="caro" style="height: auto;">
+                  …
+font-size: clamp(clamp(1.3rem, 1.3rem + 2 * (min(100vw, 177.7777777778vh) - 37.5rem) / 649, 1.5rem), 
+min(100vw, 177.7777777778vh) / 1440 * 15, 2.0833333333rem);
+…
+                </div>
+                <br>
+                <p>And the computed output:</p>
+                <br>
+                <div class="caro" >
+                  <p>font-size: 17.3542px</p>
+                </div>
+                <br>
+                <h3>ACCESSIBILITY CONCERNS #</h3>
+                <br>
+                <p>
+                  To ensure good accessibility, I recommend testing in each case whether all sizes are sufficiently zoomable. Arguments with a large difference might not behave as desired. For more information on this topic, you can check the article “Responsive Type and Zoom” by Adrian Roselli.
+                </p>
+                <h3>Conclusion #</h3>
+                <br>
+                <p>Now we have created a function that does all the work for us. It takes a minimum and an optimum value and spits out a calculation to our CSS property, considering the screen width, aspect ratio, and the specified anchor points — a single formula that drives the entire project. No media queries, no breakpoints, no design jumps.
+
+                 <br> The FabUnit presented here is based on my own experience and is optimized for most of my projects. I save a lot of time and am satisfied with the result. It may be that you and your team have another approach and therefore have other requirements for a FabUnit. It would be nice if you were now able to create your own FabUnit according to your needs.
+                  
+                 <br> I would be happy if my approach inspired you with new ideas. I would be honored if you directly use the npm package of the FabUnit from this article for your projects.
+                  
+                  <br> Thank you! 🙏🏻</p>
+                  <br>
+                  <h3>FAB-UNIT LINKS #</h3>
+                  <br>
+                  <a href="">
+                    . FabUnit CodeSandbox Example
+                  </a>
+                  <a href="">FabUnit Github</a>
+                  <br>
+                  <br>
+                  <a href="">FabUnit Npm Package</a>
+                  <br>
+                  <br>
+                  <a href="">FabUnit Visualiser</a>
+                  <br>
+                  <br>
+                  <p style="font-style: italic;">Merci Eli, Roman, Patrik, Fidi.</p>
+                  <br>
+                  <p>Smashing Editorial (yk, il)</p>
+                  <p style="color:darkslategray">Explore more on</p>
+                  <br>
+                  <div class="btn-grp">
+                    <button class="btn">Techinques</button>
+                    <button class="btn">Tools</button>
+                    <button class="btn">CSS</button>
+                    <button class="btn">Responsive design</button>
+                  </div>
+                  <br><br>
+                  
+                  <br>
+                  
+                          </div>
+             <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <div><img src="./image/download.gif" alt="" style="border-radius: 13px;"></div>
+               <br>
+              <h4 style="color: white;">ABOUT THE AUTHOR</h4>
+                <br>
+                <h8 style="color: white;">Addicted developer, trained graphic designer, metal guitarist, sportswoman. Freiburg, Switzerland. Proud and happy team member <a href="@MutocoDigital. More about Fabienne ↬">@MutocoDigital. More about Fabienne ↬</a></h8> 
+                <div class="fEmail text-center">
+                  <br>
+                  <br>
+                  <h3> Email Newsletter</h3>
+                  <br>
+                  <input type="text">
+                  <br>
+                  <br>
+                  <a href=""><p3>Weekly tips on front-end & UX.</p3></a>
+                  <br>
+                  <p3>Trusted by 200,000+ folks.</p3>
+                   <div class="im">
+                    <img src="./image/brad-frost (1).avif" alt="" width="100%">
+                   </div>
+                   <div class="imm">
+                    <img src="./image/amplifyq4.jpg" alt="" width="100%">
+                   </div>
+                   <div>
+                    <img src="./image/smashingconf-front-end-sf-2023.png" alt="" width="100%">
+                   </div>
+                   <div class="immt">
+                    <img src="./image/brad-frost (1).avif" alt="" width="100%">
+                   </div>
+                 
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <div class="border"></div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-xl-12 col-sm-12">
+                <div class="text-center"><p3 style="color: white;" class="tex">Our friends and suppoters .You know help us to pay bills</p3>
+                <br>
+                <br><br>
+              <img src="./image/smashing-friskies-300x250.png" alt=""></div>
+              <br><br>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-md-4 col-sm-12 col-xl-4">
+               <img src="./image/11.png" alt="" height="270px">
+               <br><br>
+               <a href=""><h3>Smashing Newsletter</h3></a>
+               <br>
+               <p3>Tips on front-end & UX, delivered weekly in your inbox. Just the things you can actually use.</p3>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xl-4">
+                <img src="./image/221.png" alt="" height="270px">
+                <br><br>
+                <a href=""><h3>Front-End & UX Workshops, Online</h3></a>
+                <br>
+                <p3> With practical takeaways, live sessions, video recordings and a friendly Q&A.</p3>
+              </div>
+              <div class="col-md-4 col-sm-12 col-xl-4">
+                <img src="./image/330.png" alt="" height="270px">
+                <br><br>
+                <a href=""><h3>TypeScript in 50 Lessons</h3></a>
+                <br>
+                <p3>Everything TypeScript, with code walkthroughs and examples. And other printed books.</p3>
+              </div>
+            </div>
+          </div>
+          <BR></BR>
+          <br>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h3 style="font-size: 50PX;">— Comments </h3>
+                <br><br>
+                <div class="card">
+                  <div><img algin ="left" src="./image/001.png"  alt="" height="75px" width="75px"> <span> Kilian wrote <small>— december 1, 2022 10:10 #</small> </span></div>
+                  <br><p>Super handy! This saves us a lot of development effort and allows us to maintain consistency effortlessly.</p>
+                  <button class="btn btn-primary height 25px"> Reply</button>
+                </div>
+                <br><br>
+                <div class="card">
+                  <div><img algin ="left" src="./image/001.png"  alt="" height="75px" width="75px"> <span> Kilian wrote <small>— december 1, 2022 10:10 #</small> </span></div>
+                  <br><p>Super handy! This saves us a lot of development effort and allows us to maintain consistency effortlessly.</p>
+                  <button class="btn btn-primary height 25px"> Reply</button>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h3>LEAVE A COMMENT</h3>
+                <br>
+                <div class="caro" style="width: 500px;">
+                  Comments are moderated. They will be published only if they add to the discussion in a constructive way. If you disagree, please be polite. We all want to learn from each other here. We use GitHub Flavored Markdown for comments. Call out code within a sentence with single backticks (`command`). For a distinct block, use triple backticks (```code block```). Typo? Please let us know.
+                </div>
+                <br>
+                <p>Your message</p>
+                <br>
+                <textarea rows="7" cols="50" name="comment" form="usrform"></textarea>
+                <br>
+                <br>
+                <p3>Your name</p3>
+                <br>
+                <br>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <br>
+                <p3>Your Twitter (e.g. 'smashingmag')</p3>
+                <br>
+                <br>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <br>
+                <div class="text-center"><button type="" class="btn btn-success " style="height:60px; width: 230px; font-size: 22px;">POST A Comment</button></div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="footer text-center">
+            <div class="container">
+              <div class="row text-center">
+                <h3>BROWSE ALL SMASHING MAGAZINE TOPICS #</h3>
+                <div class="col-md-12 d-flex flex-row flex-wrap ctr">
+                  <div><a href=""><h3>&#x2022; Accessibility</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Android</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Animation</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Apps</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Css</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Designs</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Design pattern</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Design systems</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Freebis</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Ecommerence</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Graphics </h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Illuminstaor</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Html</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Ios</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Javascript</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Mobile</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Pattern libaries</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Performance</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Photoshops</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Plugins</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; React</h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Responsive design</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Service workers </h3></a> </div>
+                  <div><a href=""><h3>&#x2022;Sketch</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Ui</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Usability</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Experience</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Wallpapers</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Webdesign</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Wordpress</h3></a> </div>
+                  <div><a href=""><h3>&#x2022; Workflow</h3></a> </div>
+                </div> 
+                <br> 
+                <br>
+                <p4 style="color: white;">With a commitment to quality content for the design community.
+                  <br>
+
+                  Founded by Vitaly Friedman and Sven Lennartz. 2006–2023.
+                  <br>
+                  Smashing is proudly running on Netlify.
+                  <br>
+                  Fonts by Latinotype.
+                <br></p4>
+                   
+                  <br><br>
+    
+                  <div class="flex-row text-center" >
+                    <br>
+                    <a href=""> <p4>✎ Write for us</p4> </a>
+                    <a href=""> <p4>Contact us us</p4> </a>
+                    <a href=""> <p4>About us</p4> </a>
+                    <a href=""> <p4>Privacy policy</p4> </a>
+                    <a href=""> <p4>Contact us us</p4> </a>
+                    <a href=""> <p4>About us</p4> </a>
+                    <a href=""> <p4>Privacy policy</p4> </a>  
+                  </div>
+              </div>
+            </div>
+          </div>
+
+         </div>
+
+      <!--Body part end -->
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+  var imge = document.getElementById('dropdown-pic');
+  var dropdownButton = document.getElementById('navbarDropdown');
+  dropdownButton.addEventListener('click',()=>{
+    if(
+      document.getElementById('dropdown-menu-show').classList.contains('show')){
+        imge.src = "image/pic1.png"
+      }
+      else{
+        imge.src = "image/pic2.png"
+      }
+  })
+  window.addEventListener('click',()=>{
+    imge.src = "image/pic1.png"
+  })
+</script>
+</body>
+</html>
